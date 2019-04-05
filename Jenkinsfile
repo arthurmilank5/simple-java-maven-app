@@ -1,8 +1,8 @@
 pipeline {
   agent any
   tools {
-      jdk 'jdk8'
-      maven 'mvn3'
+      jdk 'Jdk8'
+      maven 'maven'
   }
   stages {
       stage('test java installation') {
